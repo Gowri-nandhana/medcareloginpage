@@ -1,0 +1,96 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(/images/image4.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.wrapper{
+    width: 400px;
+   
+    border: 2px solid rgb(249, 250, 251);
+    padding: 50px 50px;
+    border-radius: 12px;
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgb(249, 250, 251);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.input-box input::placeholder{
+    color: #fff;
+    padding: 10px;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: #fff;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 40px;
+    border: #fff;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgb(249, 250, 251);
+    margin-top: 10px;
+}
+
+.wrapper .remember-box{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+   
+}
+
+.wrapper .remember-box label{
+    color: #fff;
+    
+}
+
+.wrapper .remember-box a{
+    color: #fff;
+}
+
+.wrapper .register{
+    text-align: center;
+}
+
+.wrapper .register a{
+    color: #fff;
+}
+
+.wrapper .register p{
+    color: #fff;
+   
+}
